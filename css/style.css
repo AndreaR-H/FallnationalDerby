@@ -49,7 +49,6 @@ body {
     z-index: 1;
     text-shadow: 2px 2px 7px #1b201d;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 1035px;
     padding: 30px;
 }
 
@@ -82,8 +81,12 @@ h4 {
 }
 
 .imagewrapper {
-    width: 100%;
+    width: 400px;
+    max-width: 80vw;
+}
 
+.imagewrapper img {
+    width: 100%;
 }
 
 .content-section {
