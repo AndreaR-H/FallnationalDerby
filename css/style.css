@@ -1,0 +1,161 @@
+#header {
+    background-image: url(../img/stone_background.jpg);
+    color: #f30f26;
+    height: 140px;
+}
+
+body {
+    font-family: 'Bayon', sans-serif;
+}
+
+#header h1 {
+    font-size: xx-large;
+}
+
+#id {
+    float: left;
+    margin-left: 0px;
+}
+
+#main-nav #main-nav-links {
+
+    list-style: none;
+}
+
+#main-nav #main-nav-links li {
+    margin-left: 30px;
+    float: right;
+
+}
+
+#main-nav #main-nav-links li a {
+    color: #f30f26;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#main-nav #main-nav-links li a:hover {
+    color: white;
+}
+
+#home {
+    position: relative;
+}
+
+#home p {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    z-index: 1;
+    text-shadow: 2px 2px 7px #1b201d;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 1035px;
+    padding: 30px;
+}
+
+#small {
+    display: none;
+}
+
+#cars li {
+    list-style: circle;
+}
+
+.topnav {
+    display: none;
+}
+
+li a {
+    color: #f30f26;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+}
+
+h2,
+h3,
+h4 {
+    color: #f30f26;
+    font-weight: bold;
+}
+
+.imagewrapper {
+    width: 100%;
+
+}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #header {
+        font-size: large;
+    }
+
+    #home p {
+        color: black;
+        position: relative;
+        height: auto;
+    }
+
+    #large {
+        display: none;
+    }
+
+    #small {
+        display: contents;
+    }
+
+    #main-nav #main-nav-links {
+        display: none;
+    }
+
+    .topnav {
+        display: contents;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #f30f26;
+        color: white;
+    }
+}
