@@ -45,11 +45,7 @@ body {
 #home p {
     color: white;
     font-size: xx-large;
-    position: absolute;
-    z-index: 1;
     text-shadow: 2px 2px 7px #1b201d;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 30px;
 }
 
 #small {
@@ -93,6 +89,13 @@ h4 {
     margin-bottom: 50px;
 }
 
+#large {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 @media screen and (max-width: 600px) {
     #header {
