@@ -112,16 +112,22 @@ h4 {
 }
 
 #register {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .sponsors {
     max-width: 80vw;
+
 }
 
 .sponsors img {
-    width: 100%
+    width: 100%;
+    padding: 20px;
+}
+
+.reg {
+    padding-right: 20%;
 }
 
 
