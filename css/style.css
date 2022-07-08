@@ -65,8 +65,16 @@ li a {
     text-decoration: none;
 }
 
+a {
+    color: #f30f26;
+    text-decoration: none;
+}
 
 li a:hover {
+    color: black;
+}
+
+a:hover {
     color: black;
 }
 
@@ -90,6 +98,10 @@ h4 {
     margin-bottom: 50px;
 }
 
+.content-section p {
+    font-size: x-large;
+}
+
 #large {
     height: 100%;
     position: absolute;
@@ -98,23 +110,18 @@ h4 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.content-section p {
-    font-size: x-large;
-}
 
 #rules {
     display: flex;
     gap: 200px;
+    font-size: x-large;
 }
 
 .image img {
     width: 100%;
 }
 
-#register {
-    display: grid;
-    grid-template-columns: auto auto;
-}
+
 
 .sponsors {
     max-width: 80vw;
@@ -127,7 +134,7 @@ h4 {
 }
 
 .reg {
-    padding-right: 20%;
+    padding-right: 30%;
 }
 
 
